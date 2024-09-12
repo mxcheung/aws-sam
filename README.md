@@ -11,5 +11,6 @@ sam init --runtime python3.9
 cd ./sam-app
 sam build
 sam local invoke HelloWorldFunction --event events/event.json
+sam local start-api -p 8080
 ```
 
